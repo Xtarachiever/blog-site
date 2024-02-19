@@ -1,3 +1,5 @@
+import Main from "@/components/Main";
+import NavBar from "@/components/layouts/NavBar";
 
 
 export default function Home() {
@@ -5,6 +7,8 @@ export default function Home() {
     <main
       className={``}
     >
+      <NavBar />
+      <Main />
     </main>
   )
 }

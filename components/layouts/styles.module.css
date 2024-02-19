@@ -1,0 +1,45 @@
+.divider{
+    width: 2px;
+    height: 25px;
+    background-color: #41383A;
+}
+.sign_up{
+    background-color: #3e5abc;
+    color: #f8f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.sections a:not(:first-child){
+    padding: 0px 30px;
+}
+.sections .input_field{
+    width: 40%;
+}
+.search_icon{
+    padding: 7px;
+}
+.sections .input_field input{
+    padding-left: 10px;
+    color: #41383A;
+    outline: none;
+    padding: 7px;
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    /* transform: translateX(-100%); */
+    /* transform: translateX(100%); */
+}
+.empty_input input{
+    width: 0%;
+}
+.active_input input{
+    width: 100%;
+}
+.input_field input[type=text]:focus {
+    width: 100%;
+}
