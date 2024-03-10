@@ -1,0 +1,28 @@
+.img_div{
+    max-width: 350px;
+    max-height: 300px;
+    overflow: hidden;
+}
+.trending_blogs{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media screen and (min-width:1300px) {
+    .trending_blogs{
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .trending_blogs{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .trending_blogs{
+        grid-template-columns:auto;
+    }
+}

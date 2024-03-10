@@ -1,4 +1,5 @@
 import Main from "@/components/Main";
+import Footer from "@/components/layouts/Footer";
 import NavBar from "@/components/layouts/NavBar";
 
 
@@ -8,7 +9,10 @@ export default function Home() {
       className={``}
     >
       <NavBar />
-      <Main />
+      <div className="m-auto w-[90%] my-8">
+        <Main />
+        <Footer />
+      </div>
     </main>
   )
 }
