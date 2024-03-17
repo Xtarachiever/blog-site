@@ -4,11 +4,11 @@ import TrendingBlogs from "./TrendingBlogs";
 const Main = () => {
   return (
     <div>
-      <div className="main-blog flex items-center">
-         <div className="w-[55%] md:w-[40%] xl:w-[42%]">
+      <div className={`${styles.main_blog} flex items-center`}>
+         <div className={`w-[55%] md:w-[40%] xl:w-[42%] ${styles.img_blog_div}`}>
            <img src="/Blog1.jpg" alt="blog_post" />
          </div>
-         <div className="ml-8">
+         <div className={styles.second_div}>
            <span className="xl:text-xl">Graduation - 16th Jan, 2024</span>
            <p className="text-3xl xl:text-4xl my-4">How to walk your way to a perfect CGPA</p>
            <Link href={''} className="xl:text-xl text-blueColor">Read article</Link>

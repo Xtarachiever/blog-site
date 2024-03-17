@@ -7,7 +7,7 @@ const SectionBar = () => {
     const [open, setOpen] = useState(false);
   return (
     <div className={`bg-ashColor py-2 text-cream ${styles.sections}`}>
-        <div>
+        <div className={styles.sections_links}>
             <Link href="/">
                 Trending
             </Link>

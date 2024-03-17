@@ -6,9 +6,11 @@ import NavBar from "@/components/layouts/NavBar";
 export default function Home() {
   return (
     <main
-      className={``}
+      className={`relative min-h-[100vh] min-w-[250px]`}
     >
-      <NavBar />
+      <div className="sticky top-0 bg-white">
+        <NavBar />
+      </div>
       <div className="m-auto w-[90%] my-8">
         <Main />
         <Footer />

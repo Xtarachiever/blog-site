@@ -8,7 +8,9 @@
     grid-template-columns:1fr 1fr 1fr;
     gap: 20px;
 }
-
+.main_blog .second_div{
+    margin-left: 20px;
+}
 @media screen and (min-width:1300px) {
     .trending_blogs{
         grid-template-columns:1fr 1fr 1fr 1fr;
@@ -24,5 +26,15 @@
 @media screen and (max-width:600px) {
     .trending_blogs{
         grid-template-columns:auto;
+    }
+    .main_blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_blog .second_div{
+        margin-left: 0px;
+    }
+    .main_blog .img_blog_div{
+        width: 100%;
     }
 }
